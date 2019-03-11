@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Link preview generation for PHP with Laravel support",
     "keywords": ["php","url","scraping","laravel","preview"],
-    "homepage": "http://github.com/dusterio/link-preview",
+    "homepage": "http://github.com/duxtinto/link-preview",
     "license": "MIT",
     "authors": [],
     "require": {

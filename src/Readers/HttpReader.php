@@ -42,7 +42,7 @@ class HttpReader implements ReaderInterface
             'cookies' => $this->jar,
             'connect_timeout' => 5,
             'headers' => [
-                'User-Agent' => 'dusterio/link-preview v1.2'
+                'User-Agent' => 'duxtinto/link-preview v2'
             ]
         ];
     }
