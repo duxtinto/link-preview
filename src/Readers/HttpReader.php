@@ -8,6 +8,8 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Cookie\CookieJar;
 use GuzzleHttp\TransferStats;
 use GuzzleHttp\Exception\ConnectException;
+use GuzzleHttp\Psr7;
+use Illuminate\Support\Arr;
 
 /**
  * Class HttpReader
@@ -99,8 +101,14 @@ class HttpReader implements ReaderInterface
                 }
             ]));
 
-            $link->setContent($response->getBody())
-                ->setContentType($response->getHeader('Content-Type')[0]);
+            $contentType = $response->getHeader('Content-Type')[0];
+            $parsedHeader = Psr7\parse_header($contentType);
+            $content = Arr::has($parsedHeader, 0) && Arr::has($parsedHeader[0], 'charset')
+                ? mb_convert_encoding($response->getBody(), 'UTF-8', Arr::get($parsedHeader[0], 'charset'))
+                : $response->getBody();
+
+            $link->setContent($content)
+                ->setContentType($contentType);
         } catch (ConnectException $e) {
             $link->setContent(false)->setContentType(false);
         }
