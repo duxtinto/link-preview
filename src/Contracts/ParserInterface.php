@@ -1,7 +1,7 @@
 <?php
 
-namespace Dusterio\LinkPreview\Contracts;
-use Dusterio\LinkPreview\Models\Preview;
+namespace Duxtinto\LinkPreview\Contracts;
+use Duxtinto\LinkPreview\Models\Preview;
 
 /**
  * Interface ParserInterface

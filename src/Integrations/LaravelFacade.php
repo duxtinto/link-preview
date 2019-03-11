@@ -1,11 +1,11 @@
 <?php
-namespace Dusterio\LinkPreview\Integrations;
+namespace Duxtinto\LinkPreview\Integrations;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class LaravelFacade
- * @package Dusterio\LinkPreview\Integrations
+ * @package Duxtinto\LinkPreview\Integrations
  * @codeCoverageIgnore
  */
 class LaravelFacade extends Facade

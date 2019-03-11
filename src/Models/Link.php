@@ -1,9 +1,9 @@
 <?php
 
-namespace Dusterio\LinkPreview\Models;
+namespace Duxtinto\LinkPreview\Models;
 
-use Dusterio\LinkPreview\Contracts\LinkInterface;
-use Dusterio\LinkPreview\Exceptions\MalformedUrlException;
+use Duxtinto\LinkPreview\Contracts\LinkInterface;
+use Duxtinto\LinkPreview\Exceptions\MalformedUrlException;
 
 /**
  * Class Link

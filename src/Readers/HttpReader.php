@@ -1,9 +1,9 @@
 <?php
 
-namespace Dusterio\LinkPreview\Readers;
+namespace Duxtinto\LinkPreview\Readers;
 
-use Dusterio\LinkPreview\Contracts\LinkInterface;
-use Dusterio\LinkPreview\Contracts\ReaderInterface;
+use Duxtinto\LinkPreview\Contracts\LinkInterface;
+use Duxtinto\LinkPreview\Contracts\ReaderInterface;
 use GuzzleHttp\Client;
 use GuzzleHttp\Cookie\CookieJar;
 use GuzzleHttp\TransferStats;

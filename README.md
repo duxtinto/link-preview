@@ -41,7 +41,7 @@ Or add it to `composer.json` manually:
 ## Direct usage
 
 ```php
-use Dusterio\LinkPreview\Client;
+use Duxtinto\LinkPreview\Client;
 
 $previewClient = new Client('https://www.boogiecall.com/en/Melbourne');
 
@@ -87,7 +87,7 @@ $previewClient->getParser('general')->getReader()->config(['allow_redirects' => 
 // If there is a network error (DNS, connect, etc), we throw ConnectionErrorException
 try {
     $previews = $previewClient->getPreviews();
-} catch (\Dusterio\LinkPreview\Exceptions\ConnectionErrorException $e) {
+} catch (\Duxtinto\LinkPreview\Exceptions\ConnectionErrorException $e) {
     echo "Oh no!";
 }
 ```
@@ -95,7 +95,7 @@ try {
 ### YouTube example
 
 ```php
-use Dusterio\LinkPreview\Client;
+use Duxtinto\LinkPreview\Client;
 
 $previewClient = new LinkPreview('https://www.youtube.com/watch?v=v1uKhwN6FtA');
 
@@ -123,12 +123,12 @@ array(2) {
 
 'providers' => [
     '...',
-    'Dusterio\LinkPreview\Integrations\LaravelServiceProvider',
+    'Duxtinto\LinkPreview\Integrations\LaravelServiceProvider',
 ];
 
 'aliases' => [
     '...',
-    'Preview'    => 'Dusterio\LinkPreview\Integrations\LaravelFacade',
+    'Preview'    => 'Duxtinto\LinkPreview\Integrations\LaravelFacade',
 ];
 
 // Set target url

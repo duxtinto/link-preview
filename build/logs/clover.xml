@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <coverage generated="1458369831">
   <project timestamp="1458369831">
-    <package name="Dusterio\LinkPreview">
+    <package name="Duxtinto\LinkPreview">
       <file name="/Users/duster/repos/link-preview/src/Client.php">
-        <class name="Client" namespace="Dusterio\LinkPreview">
+        <class name="Client" namespace="Duxtinto\LinkPreview">
           <metrics methods="10" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="23" elements="36" coveredelements="31"/>
         </class>
         <line num="27" type="method" name="__construct" crap="2" count="5"/>
@@ -57,49 +57,49 @@
     <file name="/Users/duster/repos/link-preview/src/Contracts/ReaderInterface.php">
       <metrics loc="15" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <package name="Dusterio\LinkPreview\Exceptions">
+    <package name="Duxtinto\LinkPreview\Exceptions">
       <file name="/Users/duster/repos/link-preview/src/Exceptions/MalformedUrlException.php">
-        <class name="MalformedUrlException" namespace="Dusterio\LinkPreview\Exceptions" fullPackage="Dusterio" package="Dusterio">
+        <class name="MalformedUrlException" namespace="Duxtinto\LinkPreview\Exceptions" fullPackage="Dusterio" package="Dusterio">
           <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="12" ncloc="7" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
       <file name="/Users/duster/repos/link-preview/src/Exceptions/UnknownFieldException.php">
-        <class name="UnknownFieldException" namespace="Dusterio\LinkPreview\Exceptions" fullPackage="Dusterio" package="Dusterio">
+        <class name="UnknownFieldException" namespace="Duxtinto\LinkPreview\Exceptions" fullPackage="Dusterio" package="Dusterio">
           <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="11" ncloc="6" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
       <file name="/Users/duster/repos/link-preview/src/Exceptions/UnknownParserException.php">
-        <class name="UnknownParserException" namespace="Dusterio\LinkPreview\Exceptions" fullPackage="Dusterio" package="Dusterio">
+        <class name="UnknownParserException" namespace="Duxtinto\LinkPreview\Exceptions" fullPackage="Dusterio" package="Dusterio">
           <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="12" ncloc="7" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
     </package>
-    <package name="Dusterio\LinkPreview\Integrations">
+    <package name="Duxtinto\LinkPreview\Integrations">
       <file name="/Users/duster/repos/link-preview/src/Integrations/LaravelFacade.php">
-        <class name="LaravelFacade" namespace="Dusterio\LinkPreview\Integrations" fullPackage="Dusterio" package="Dusterio">
+        <class name="LaravelFacade" namespace="Duxtinto\LinkPreview\Integrations" fullPackage="Dusterio" package="Dusterio">
           <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="22" ncloc="12" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
       <file name="/Users/duster/repos/link-preview/src/Integrations/LaravelServiceProvider.php">
-        <class name="LaravelServiceProvider" namespace="Dusterio\LinkPreview\Integrations" fullPackage="Dusterio" package="Dusterio">
+        <class name="LaravelServiceProvider" namespace="Duxtinto\LinkPreview\Integrations" fullPackage="Dusterio" package="Dusterio">
           <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="51" ncloc="26" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
     </package>
-    <package name="Dusterio\LinkPreview\Models">
+    <package name="Duxtinto\LinkPreview\Models">
       <file name="/Users/duster/repos/link-preview/src/Models/HtmlPreview.php">
-        <class name="HtmlPreview" namespace="Dusterio\LinkPreview\Models">
+        <class name="HtmlPreview" namespace="Duxtinto\LinkPreview\Models">
           <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="43" ncloc="27" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
       <file name="/Users/duster/repos/link-preview/src/Models/Link.php">
-        <class name="Link" namespace="Dusterio\LinkPreview\Models">
+        <class name="Link" namespace="Duxtinto\LinkPreview\Models">
           <metrics methods="11" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="14" elements="29" coveredelements="22"/>
         </class>
         <line num="37" type="method" name="__construct" crap="2" count="8"/>
@@ -134,15 +134,15 @@
         <metrics loc="132" ncloc="83" classes="1" methods="11" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="14" elements="29" coveredelements="22"/>
       </file>
       <file name="/Users/duster/repos/link-preview/src/Models/VideoPreview.php">
-        <class name="VideoPreview" namespace="Dusterio\LinkPreview\Models">
+        <class name="VideoPreview" namespace="Duxtinto\LinkPreview\Models">
           <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="38" ncloc="23" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
     </package>
-    <package name="Dusterio\LinkPreview\Parsers">
+    <package name="Duxtinto\LinkPreview\Parsers">
       <file name="/Users/duster/repos/link-preview/src/Parsers/BaseParser.php">
-        <class name="BaseParser" namespace="Dusterio\LinkPreview\Parsers">
+        <class name="BaseParser" namespace="Duxtinto\LinkPreview\Parsers">
           <metrics methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="5" elements="12" coveredelements="8"/>
         </class>
         <line num="24" type="method" name="getPreview" crap="1" count="1"/>
@@ -160,7 +160,7 @@
         <metrics loc="66" ncloc="42" classes="1" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="5" elements="12" coveredelements="8"/>
       </file>
       <file name="/Users/duster/repos/link-preview/src/Parsers/HtmlParser.php">
-        <class name="HtmlParser" namespace="Dusterio\LinkPreview\Parsers">
+        <class name="HtmlParser" namespace="Duxtinto\LinkPreview\Parsers">
           <metrics methods="7" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="36" coveredstatements="4" elements="43" coveredelements="6"/>
         </class>
         <line num="56" type="method" name="__construct" crap="3" count="5"/>
@@ -209,7 +209,7 @@
         <metrics loc="169" ncloc="121" classes="1" methods="7" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="36" coveredstatements="4" elements="43" coveredelements="6"/>
       </file>
       <file name="/Users/duster/repos/link-preview/src/Parsers/YouTubeParser.php">
-        <class name="YouTubeParser" namespace="Dusterio\LinkPreview\Parsers">
+        <class name="YouTubeParser" namespace="Duxtinto\LinkPreview\Parsers">
           <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="15" coveredelements="15"/>
         </class>
         <line num="26" type="method" name="__construct" crap="3" count="5"/>
@@ -230,9 +230,9 @@
         <metrics loc="62" ncloc="43" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="15" coveredelements="15"/>
       </file>
     </package>
-    <package name="Dusterio\LinkPreview\Readers">
+    <package name="Duxtinto\LinkPreview\Readers">
       <file name="/Users/duster/repos/link-preview/src/Readers/HttpReader.php">
-        <class name="HttpReader" namespace="Dusterio\LinkPreview\Readers">
+        <class name="HttpReader" namespace="Duxtinto\LinkPreview\Readers">
           <metrics methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="10" elements="15" coveredelements="13"/>
         </class>
         <line num="24" type="method" name="getClient" crap="2.15" count="1"/>
@@ -256,9 +256,9 @@
         <metrics loc="62" ncloc="47" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="13" elements="18" coveredelements="16"/>
       </file>
     </package>
-    <package name="Dusterio\LinkPreview\Traits">
+    <package name="Duxtinto\LinkPreview\Traits">
       <file name="/Users/duster/repos/link-preview/src/Traits/HasExportableFields.php">
-        <class name="HasExportableFields" namespace="Dusterio\LinkPreview\Traits">
+        <class name="HasExportableFields" namespace="Duxtinto\LinkPreview\Traits">
           <metrics methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
         </class>
         <line num="10" type="method" name="getFields" crap="6" count="0"/>
@@ -272,7 +272,7 @@
         <metrics loc="29" ncloc="23" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
       </file>
       <file name="/Users/duster/repos/link-preview/src/Traits/HasImportableFields.php">
-        <class name="HasImportableFields" namespace="Dusterio\LinkPreview\Traits">
+        <class name="HasImportableFields" namespace="Duxtinto\LinkPreview\Traits">
           <metrics methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="7" elements="19" coveredelements="7"/>
         </class>
         <line num="15" type="method" name="__call" crap="10.54" count="1"/>

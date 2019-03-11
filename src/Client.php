@@ -1,14 +1,14 @@
 <?php
 
-namespace Dusterio\LinkPreview;
+namespace Duxtinto\LinkPreview;
 
-use Dusterio\LinkPreview\Contracts\ParserInterface;
-use Dusterio\LinkPreview\Contracts\PreviewInterface;
-use Dusterio\LinkPreview\Parsers\HtmlParser;
-use Dusterio\LinkPreview\Parsers\YouTubeParser;
-use Dusterio\LinkPreview\Parsers\VimeoParser;
-use Dusterio\LinkPreview\Models\Link;
-use Dusterio\LinkPreview\Exceptions\UnknownParserException;
+use Duxtinto\LinkPreview\Contracts\ParserInterface;
+use Duxtinto\LinkPreview\Contracts\PreviewInterface;
+use Duxtinto\LinkPreview\Parsers\HtmlParser;
+use Duxtinto\LinkPreview\Parsers\YouTubeParser;
+use Duxtinto\LinkPreview\Parsers\VimeoParser;
+use Duxtinto\LinkPreview\Models\Link;
+use Duxtinto\LinkPreview\Exceptions\UnknownParserException;
 
 class Client
 {
